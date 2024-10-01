@@ -1,0 +1,87 @@
+ /* 3D CSS for Login Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("japanese.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Sign-card{
+    background-image: url("japanese2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(165, 240, 240);
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* 3D effect for heading */
+}
+
+div {
+    text-align: center;
+}
+
+fieldset {
+    background-color: lightgrey;
+    border-radius: 20px;
+    border: 5px solid #ccc;
+    width: 400px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* 3D box shadow effect */
+    margin-top: 122px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #999;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1); /* Inset 3D input field */
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px #666;
+    transition: box-shadow 0.2s ease, transform 0.2s ease; /* Transition for 3D effect */
+}
+
+button:hover {
+    box-shadow: 0 7px #555;
+    transform: translateY(-2px); /* Button rises on hover */
+}
+
+button:active {
+    box-shadow: 0 3px #333;
+    transform: translateY(2px);/* Button presses in on click */
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #000;
+}
+
+h5 {
+    margin: 0;
+    font-weight: normal;
+}
+
+a{
+    color: rgb(165, 240, 240);
+}
+
+label{
+    color: rgb(165, 240, 240);
+    font-weight: 600;
+}

@@ -1,0 +1,22 @@
+body{
+    padding: 25px;
+  }
+  .title {
+      color: #5C6AC4;
+  }
+  .container {
+    border: 2px solid red;
+    width: 700px;
+    height: 200px;
+    overflow: scroll;
+  }
+  .card { 
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    display: inline-block;
+    position: sticky;
+    top: 1px;
+    
+  }
